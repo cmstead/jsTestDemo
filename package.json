@@ -1,0 +1,25 @@
+{
+  "name": "jsTestDemo",
+  "version": "0.0.0",
+  "description": "An example for performing Javascript unit testing",
+  "main": "index.js",
+  "scripts": {
+    "globalinstaller": "npm install -g karma-cli",
+    "test": "karma start ./spec/karma.config.js"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "unit",
+    "testing"
+  ],
+  "author": "Chris Stead",
+  "license": "No license",
+  "devDependencies": {
+    "karma": "^0.12.36",
+    "karma-coverage": "^0.3.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
+  }
+}
